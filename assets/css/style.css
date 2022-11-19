@@ -187,3 +187,9 @@ footer {
   padding: 20px;
   margin: 80px 25px 40px 25px;
 }
+
+/* PORTFOLIO */
+
+.uk-lightbox-toolbar {
+  background: none;
+}
