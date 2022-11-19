@@ -1,0 +1,189 @@
+body {
+  background-size: cover;
+  height: 100vh;
+}
+
+/* NAVBAR */
+
+#my-navbar {
+  background: transparent;
+  height: 60px;
+}
+
+.uk-navbar-nav {
+  gap: 0;
+}
+.uk-navbar-nav > li {
+  padding: 5px 30px;
+  border-left: 1px solid #000000;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.uk-navbar-nav > li:last-child {
+  border-right: 1px solid #000000;
+}
+
+.uk-navbar-nav > li:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.uk-navbar-nav > li > a {
+  text-transform: uppercase;
+  color: inherit;
+  font-family: fantasy;
+  font-size: large;
+  letter-spacing: 2px;
+  padding: 5px 30px;
+}
+
+.uk-navbar-nav > li > a:hover {
+  color: inherit;
+}
+
+/* SIDEBAR */
+
+.my-sidebar {
+  background-color: rgba(68, 68, 68, 0.5);
+  border-left: 1px solid #000000;
+  height: calc(100vh - 35px);
+  text-align: center;
+}
+
+.my-avatar-container {
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+.my-avatar-container > img {
+  transform: scale(0.9);
+}
+
+.my-sidebar > h1 {
+  font-family: fantasy;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.my-contact {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.my-contact > a {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.my-contact > a:hover {
+  color: #af9881;
+}
+
+.my-social-links {
+  color: #000000;
+  margin-top: 5vh;
+}
+
+.my-social-links > a {
+  padding: 5px;
+}
+
+.my-social-links > a:hover {
+  color: #ffffff;
+}
+
+.my-button-container {
+  bottom: 5vh;
+}
+
+.uk-position-bottom > button {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: large;
+  margin-top: 5vh;
+}
+
+.uk-position-bottom > button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(68, 68, 68, 0.5);
+  width: 100%;
+  height: 35px;
+  color: #ffffff;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-footer-border {
+  border-top: 1px solid #000000;
+  position: absolute;
+  width: 100%;
+  right: 25%;
+  bottom: 35px;
+}
+
+/* CONTENT */
+/* HOMEPAGE */
+
+.my-homepage-overlay {
+  background-color: rgba(256, 256, 256, 0.4);
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 25px 50px;
+  position: absolute;
+  top: 30vh;
+  left: 15vw;
+}
+.my-homepage-overlay > h1 {
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: fantasy;
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+.my-homepage-overlay > h2 {
+  color: #000000;
+  font-family: fantasy;
+  font-size: x-large;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+/* ABOUT */
+
+.my-content-overlay {
+  background-color: rgba(256, 256, 256, 0.4);
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 80px 25px 40px 25px;
+}
